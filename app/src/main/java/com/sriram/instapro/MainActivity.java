@@ -355,7 +355,7 @@ Toolbar toolBar;
         builder.setTitle("Help")
 
                 .setMessage("1. Select post what you want\n2. Click menu on the right side\n3." +
-                        " Select copy link\n4. Return to app\n5. Click Paste\n6. Submit URL\n7. Or Share link from Instagram to here")
+                        " Select copy link\n4. Return to app\n5. Click Paste\n6. Submit URL\n7. Or share link from Instagram to here")
                 .setPositiveButton("OK", null)
                 .show();
     }
