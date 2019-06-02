@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorAccent"
+    android:elevation="2dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+<!--    <com.sriram.instapro.CustomTextView
+        android:id="@+id/img"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="21dp"
+        app:fontName="@string/font_roboto_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="end"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/ic_action_setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toEndOf="@+id/img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />-->
+</android.support.constraint.ConstraintLayout>

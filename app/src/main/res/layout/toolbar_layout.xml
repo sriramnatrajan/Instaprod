@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="?attr/actionBarSize"
+android:layout_alignParentTop="true"
+android:background="@color/colorAccent"
+android:elevation="2dp"
+android:gravity="center" >
+
+
+    <com.sriram.instapro.CustomTextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="116dp"
+        android:gravity="center"
+        android:text="Insta Pro"
+        android:textColor="@android:color/white"
+        android:textSize="21dp"
+        app:fontName="@string/font_roboto_bold" />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/ic_action_setting" />
+</android.support.v7.widget.Toolbar>
