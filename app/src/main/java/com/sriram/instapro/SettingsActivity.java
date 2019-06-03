@@ -52,12 +52,10 @@ public class SettingsActivity extends AppCompatActivity {
             });
         }
 
-        public static void getAbout(Context context) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                    builder.setTitle("About")
-                    .setPositiveButton("OK",null)
-                    .setMessage("Mas Surya Dev\nrobbysoerya6@gmail.com")
-                    .show();
+        public   void getAbout(Context context) {
+            Intent mIntent=new Intent(context, InfoActivity.class);
+            startActivity(mIntent);
+
         }
 
         public  static void sendRequest(Context context) {

@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> videolink = new ArrayList<>();
     ArrayList<String> photolink = new ArrayList<>();
     ArrayList<String> videoposition = new ArrayList<>();
-
+    ImageView settingsImageView;
 Toolbar toolBar;
     String link, filename, repost;
     Model model = new Model();
@@ -109,7 +109,7 @@ Toolbar toolBar;
         btnPaste = findViewById(R.id.btnPaste);
         progressBar = findViewById(R.id.progress);
         imgPlay = findViewById(R.id.imgPlay);
-        ImageView settingsImageView=findViewById(R.id.settings);
+          settingsImageView=findViewById(R.id.settings);
         setSupportActionBar(toolBar);
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         checkPermission();
@@ -135,7 +135,7 @@ Toolbar toolBar;
         settingsImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                Intent intent = new Intent(MainActivity.this, InfoActivity.class);
                 startActivity(intent);
             }
         });
@@ -433,9 +433,7 @@ Toolbar toolBar;
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
                 } else {
-
                     checkPermission();
-
                 }
                 return;
             }
@@ -503,7 +501,7 @@ Toolbar toolBar;
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Error")
                         .setMessage("Error, be sure url is correct."+ "\n"+
-                                "Protected account Images/videos cannot be downloaded :(")
+                                "Protected account Images and videos cannot be downloaded")
                         .setCancelable(false)
                         .setPositiveButton("OK", null)
                         .show();
