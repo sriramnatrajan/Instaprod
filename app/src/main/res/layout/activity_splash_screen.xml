@@ -14,12 +14,14 @@
         android:src="@drawable/splash"
         android:layout_width="200dp"
         android:layout_height="200dp" />
-    <TextView
+    <com.sriram.instapro.CustomTextView
+        android:layout_marginTop="10dp"
         android:id="@+id/tv"
+        app:fontName="@string/font_roboto_bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="InstaPro"
-        android:textColor="#f7a2ce"
+        android:text="@string/app_name"
+        android:textColor="@color/md_white_1000"
         android:textSize="25sp"/>
 
 </LinearLayout>

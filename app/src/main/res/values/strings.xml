@@ -12,6 +12,7 @@
 
     <!-- Example General settings -->
     <string name="pref_header_general">General</string>
+    <string name="font_regular"  translatable="false">oleoscript_regular.ttf</string>
     <string name="font_roboto_bold" translatable="false">oleoscript_bold.ttf</string>
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact
@@ -82,4 +83,6 @@
     <string name="defaul_tstorage">/storage/emulated/0/InstaPro</string>
 
     <string name="file_provider_authority" translatable="false">com.sriram.instapro.fileprovider</string>
+    <string name="notes">If you want to save someone’s Instagram feed (i.e. NOT your own), first of all – we’re sure you have totally valid, non-stalkerish reasons for doing that. Just know you’re in a non-judgement zone 😉 Let’s just imagine it’s something totally innocent like… you did a takeover and want to save the clips, and not something totally weird like… you want to make a montage of their face to watch while eating your 5th bucket of briyani.</string>
+    <string name="text_feedback_mail_id">sriramnatrajan10@gmail.com</string>
 </resources>

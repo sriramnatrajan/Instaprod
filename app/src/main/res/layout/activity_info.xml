@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/md_grey_900"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/im_sriram"
+        app:civ_border_color="@color/md_white_1000"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <com.sriram.instapro.CustomTextView
+        android:textSize="20dp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="@color/md_grey_200"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="Developed By Sriram R Natrajan"
+        android:id="@+id/tvDesc"
+        app:fontName="@string/font_roboto_bold"
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+    <com.sriram.instapro.CustomTextView
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/md_grey_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="76dp"
+        android:layout_above="@+id/footer"
+        app:fontName="@string/font_regular"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:background="@drawable/my_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <RelativeLayout
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal"
+                    android:id="@+id/sublinearLayout"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/ivFb"
+                        android:src="@drawable/playstore"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <ImageView
+                        android:id="@+id/ivTwiter"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/twitter"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <ImageView
+                        android:id="@+id/ivLinkedin"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/info_insta"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text=""
+                    android:textColor="@color/md_grey_300"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <Button
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/md_grey_900"
+            android:id="@+id/btnFeedback"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback" />
+    </LinearLayout>
+
+
+</RelativeLayout>
