@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-        <Preference
+   <!--     <Preference
             android:defaultValue="@string/defaul_tstorage"
             android:summary="@string/defaul_tstorage"
-            android:title="Download Location"/>
+            android:title="Download Location"/>-->
         <Preference android:title="Send Feedback"
             android:key="key_feedback"
             android:summary="Got any queries? We are happy to help">

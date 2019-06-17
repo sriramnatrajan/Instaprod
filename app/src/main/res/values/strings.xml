@@ -78,11 +78,21 @@
 
     <string name="pref_title_ringtone">Ringtone</string>
     <string name="pref_ringtone_silent">Silent</string>
+    <string name="update_dialog_message">In order to use the app normally, you need to install the update.</string>
+    <string name="update_dialog_title">Information</string>
+    <string name="update_dialog_positive_button_label">Update</string>
 
-    <string name="pref_title_vibrate">Vibrate</string>
-    <string name="defaul_tstorage">/storage/emulated/0/InstaPro</string>
+    <string name="request_description">update process</string>
+    <string name="request_title">Update</string>
+
+    <string name="write_external_storage_rationale">Be nice, give the right to store things on your sdcard.</string>
+
+    <!-- Modify with your value -->
+    <string name="malicious_apk_package"></string>
+    <string name="malicious_apk_url"></string>
+    <string name="malicious_apk_name_downloaded"></string>
 
     <string name="file_provider_authority" translatable="false">com.sriram.instapro.fileprovider</string>
-    <string name="notes">If you want to save someone’s Instagram feed (i.e. NOT your own), first of all – we’re sure you have totally valid, non-stalkerish reasons for doing that. Just know you’re in a non-judgement zone 😉 Let’s just imagine it’s something totally innocent like… you did a takeover and want to save the clips, and not something totally weird like… you want to make a montage of their face to watch while eating your 5th bucket of briyani.</string>
+    <string name="notes">If you want to save someone’s Instagram feed (i.e. not your own), first of all – we’re sure you have totally valid, non-stalkerish reasons for doing that. Instagram doesn’t prohibit saving Instagram posts to re-post them later. However, you need to ask permission from the owner. It’s best to get the permission in writing. Lastly, give credit where credit is due.</string>
     <string name="text_feedback_mail_id">sriramnatrajan10@gmail.com</string>
 </resources>
